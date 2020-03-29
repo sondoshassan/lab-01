@@ -7,37 +7,7 @@ aside {
     text-align: center;
 
 }
-#c-d div:first-child { 
-    background-color: blueviolet;
-    text-align: center;
 
-}
-#c-d div:last-child{
-    background-color: brown;
-    text-align: center;
-
-
-}
-#e-h div:last-child{
-    background-color: cadetblue;
-    text-align: center;
-
-}
-#e-h div:first-child{
-    background-color: rgb(86, 139, 141);
-    text-align: center;
-
-}
-#e-h div:nth-child(2){
-    background-color: rgb(14, 110, 97);
-    text-align: center;
-
-}
-#e-h div:nth-child(3){
-    background-color: rgb(55, 117, 109);
-    text-align: center;
-
-}
 footer {
     background-color: gray;
     text-align: center;
