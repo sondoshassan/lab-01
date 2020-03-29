@@ -1,3 +1,4 @@
+@media screen and (min-width:768px){
 header {
     background-color: rgb(238, 111, 111);
     text-align: center;
@@ -5,11 +6,26 @@ header {
 aside {
     background-color: rgb(41, 216, 149);
     text-align: center;
-
 }
 
 footer {
     background-color: gray;
     text-align: center;
 
+}}
+@media screen and (min-width:480px) and (max-width:767px){
+    header {
+        background-color: rgb(111, 238, 132);
+        text-align: center;
+    }
+    aside {
+        background-color: rgb(41, 102, 216);
+        text-align: center;
+    }
+    
+    footer {
+        background-color: rgb(141, 18, 18);
+        text-align: center;
+    
+    }
 }
