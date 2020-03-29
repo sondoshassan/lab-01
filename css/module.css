@@ -1,11 +1,5 @@
 @media screen and (min-width:768px){
-    #c-d {
-        position: relative;
-        height: 200px;
-    }
-    #e-h {
-        position: relative;
-    }
+    
     #c-d div{
         width: 380px;
         height: 200px;

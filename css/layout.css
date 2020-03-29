@@ -13,6 +13,13 @@
 
         float: left;
     }
+    #c-d {
+        position: relative;
+        height: 200px;
+    }
+    #e-h {
+        position: relative;
+    }
         
     footer{
         width: 760px;
