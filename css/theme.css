@@ -1,31 +1,93 @@
-@media screen and (min-width:768px){
-header {
-    background-color: rgb(238, 111, 111);
-    text-align: center;
-}
-aside {
-    background-color: rgb(41, 216, 149);
-    text-align: center;
-}
-
-footer {
-    background-color: gray;
-    text-align: center;
-
-}}
-@media screen and (min-width:480px) and (max-width:767px){
+@media (min-width: 960px) {
     header {
-        background-color: rgb(111, 238, 132);
+        background: brown;
         text-align: center;
+        border: 1px solid black;
+      box-sizing: border-box;
+      border-bottom: none;
     }
-    aside {
-        background-color: rgb(41, 102, 216);
+    main aside{
+        background: rgb(245, 108, 108);
         text-align: center;
+        border: 1px solid black;
+        box-sizing: border-box;
     }
-    
+    #c-d div {
+        background-color: cadetblue;
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #e-h div {
+        background-color: rgb(160, 95, 122);
+        border: 1px solid black;
+        box-sizing: border-box;}
+
+        footer {
+          background-color: gray;
+
+            border: 1px solid black;
+          border-top: none;
+          border-left: none;
+      box-sizing: border-box;  
+        }
+}
+/* tablate  */
+@media (min-width: 767px) and (max-width: 960px) {
+    header {
+        background: rgb(223, 219, 12);
+        text-align: center;
+        border: 1px solid black;
+      box-sizing: border-box;
+      border-bottom: none;
+    }
+    main aside{
+        background: rgb(247, 116, 219);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #c-d div {
+        background-color: rgb(2, 73, 165);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
     footer {
-        background-color: rgb(141, 18, 18);
+        background-color: rgb(175, 6, 125);}
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    header {
+        background: rgb(42, 165, 155);
         text-align: center;
-    
+        border: 1px solid black;
+      box-sizing: border-box;
+      border-bottom: none;
+    }
+    main aside{
+        background: rgb(116, 247, 229);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #c-d div {
+        background-color: rgb(106, 238, 117);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #e-h div {
+        background-color: rgb(157, 43, 250);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    footer {
+        background-color: rgb(8, 219, 138);
+        align-items: center;
+          border: 1px solid black;
+      box-sizing: border-box;   
     }
 }
