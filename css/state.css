@@ -1,3 +1,4 @@
+/* desktop */
 @media (min-width: 960px) {
 #c-d div:first-child{
     background-color: rgb(8, 138, 143);
@@ -29,7 +30,7 @@
     box-sizing: border-box;  
 }
 }
-/* tablate  */
+/* tablate */
 @media (min-width: 767px) and (max-width: 960px) {
     #c-d div:first-child{
         background-color: rgb(19, 217, 243); 
